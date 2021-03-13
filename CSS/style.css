@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*essas duas linhas (4 e 5) servem para deixar a classe container no centro da pagina horizontalmente, devido ao display: flex no inicio */
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(21, 80, 80);
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+    
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(21, 80, 80);
+    height: 400px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px 0px 0px 0px;
+}
+.input{
+    display: flex;
+    height: 30px;
+    width: 100%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input label{
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.input input{
+    height: 35px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    outline: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 57, 145);
+    height: 100px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px ;
+    border-bottom: 3px ; 
+    border-bottom-color: black;
+   
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    */
+
+}
+
+.conteudo h1{
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#calcular{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px 0px 10px 0px;
+    border-width: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 0;
+}
+#limpar{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px 0px 10px 0px;
+    border-width: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: 0;
+}
+
+.container2{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
